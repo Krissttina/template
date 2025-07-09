@@ -41,3 +41,8 @@ Initialize a Next.js project and install necessary packages like TinyMCE for ric
 Create API routes within Next.js to handle content creation, editing, and retrieval. These routes will interact with your chosen backend CMS (e.g., Contentful, Sanity) via its API. 
 3. Frontend (UI):
 Build the user interface using Next.js components, incorporating TinyMCE for content editing. Fetch data from the backend API endpoints. 
+
+### Install with npm
+You can also install Bootstrap using npm:
+
+$ npm install bootstrap@3

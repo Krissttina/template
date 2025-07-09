@@ -1,7 +1,5 @@
 # template
 
-file:///C:/Users/kristina.metodieva/Documents/Templates%202.0.htm
-
 1. Define Requirements and Scope:
 Identify Needs: Determine the specific functionalities and features your CMS needs to support, such as user roles, content types, workflows, and integrations. 
 Consider Scalability: Plan for future growth and potential expansion of the CMS. 

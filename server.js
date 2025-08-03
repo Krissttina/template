@@ -3,8 +3,13 @@ const multer = require('multer');
 const path = require('path');
 const app = express();
 
+// app.get('/', (req, res) => {
+//   res.send('Hello from the root route!');
+// });
+
+// Optional: fallback route if nothing else matches
 app.get('/', (req, res) => {
-  res.send('Hello from the root route!');
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Serve uploaded files statically
@@ -31,5 +36,3 @@ app.post('/upload', upload.single('file'), (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
-
-app.use(express.static('index.html'));

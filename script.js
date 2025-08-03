@@ -6,7 +6,7 @@ fileInput.addEventListener('change', async function () {
   const formData = new FormData();
   formData.append('file', file);
 
-  const res = await fetch('/upload', {
+  const res = await fetch('/uploads', {
     method: 'POST',
     body: formData
   });
@@ -27,7 +27,7 @@ fileInput.addEventListener('change', async function () {
         <h3>${fileName}</h3>
       </div>
       <div class="right">
-        <span>-</span>
+        <span>&#215</span>
       </div>
     `;
     fileList.appendChild(div);

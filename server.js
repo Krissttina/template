@@ -33,6 +33,5 @@ app.post('/upload', upload.single('file'), (req, res) => {
   res.json({ fileUrl });
 });
 
-
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

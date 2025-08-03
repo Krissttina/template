@@ -1,4 +1,4 @@
-const fileInput = document.getElementById('fileinput');
+const fileInput = document.getElementById('upload');
 const fileList = document.getElementById('filelist');
 
 fileInput.addEventListener('change', async function () {
